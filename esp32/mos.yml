@@ -1,0 +1,22 @@
+author: jma
+description: Report the values from DHT22 to an IoT Device Shadow on AWS
+version: 1.0
+
+libs_version: ${mos.version}
+modules_version: ${mos.version}
+mongoose_os_version: ${mos.version}
+
+# List of files/folders copied to the device filesystem
+filesystem:
+  - fs
+
+libs:
+  - origin: https://github.com/mongoose-os-libs/rpc-service-config # required for mos commands
+  - origin: https://github.com/mongoose-os-libs/rpc-service-fs # required for mos commands
+  - origin: https://github.com/mongoose-os-libs/rpc-uart # required for mos commands
+  - origin: https://github.com/mongoose-os-libs/aws  # for AWS
+  - origin: https://github.com/mongoose-os-libs/wifi # for Wifi
+  - origin: https://github.com/mongoose-os-libs/dht  # for DHT22
+  - origin: https://github.com/mongoose-os-libs/mjs  # to use JS
+
+manifest_version: 2017-09-29

@@ -1,0 +1,13 @@
+{
+  "name": "basement-sensors",
+  "version": "1.0.0",
+  "description": "Alexa Skill to access the device shadow of the basement sensors",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ask-sdk-core": "2.9.0",
+    "ask-sdk-model": "1.29.0",
+    "aws-sdk": "2.739.0",
+    "ssml-builder": "0.4.3"
+  }
+}
